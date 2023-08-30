@@ -1,0 +1,9 @@
+values<-c(1,2,3,4,5,6,7,8,9,10,11,12)
+dims<-c(5,2,2)
+dim_names<-list(
+c("Dim1-1","Dim1-2","Dim1-3"),
+c("Dim2-1","Dim2-2"),
+c("Dim3-1","Dim3-2")
+)
+arr<-array(values,dim=dims,dimnames=dim_names)
+print(arr)
